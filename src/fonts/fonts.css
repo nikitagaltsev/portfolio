@@ -12,10 +12,17 @@
 }
 
 @font-face {
-  font-family: 'Roboto-Thin';
+  font-family: 'Roboto';
   font-style: normal;
   src: url("Roboto-Thin.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: bold;
+  src: url("Roboto-Bold.ttf") format("ttf");
+}
+
 
 /* @font-face {
   font-family: 'Source Sans Pro';

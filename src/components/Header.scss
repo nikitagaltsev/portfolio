@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+
+.header__author {
+  font-size: 25px;
+  text-decoration: none;
+  align-self: center;
+  font-style: normal;
+  color: #000;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+}
+
+.header__menu-item {
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: #000;
+}
