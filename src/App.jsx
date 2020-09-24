@@ -1,17 +1,17 @@
 import React from 'react';
-import Header from './components/Header'
+import Layout from './hoc/Layout/Layout';
+import Header from './containers/Header/Header';
 import './App.scss';
 
 
 class App extends React.Component {
   render() {
     return (
-      <div className="body">
+      <Layout>
         <Header/>
-        <main className="main"></main>
-      </div>
+      </Layout>
     )
   }
 }
-
+ 
 export default App;
