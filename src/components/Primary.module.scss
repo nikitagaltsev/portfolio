@@ -1,0 +1,36 @@
+@keyframes flashing-border {
+  0% {
+    border-color: orange;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: orange;
+  }
+}
+
+.primary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 300px;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+  span {
+    span {
+      padding-right: 3px;
+      border-right: 3px solid orange;
+      animation: flashing-border 0.75s step-end infinite;
+    }
+  }
+}
+
+.primary__title {
+  margin-top: 0;
+}
+
+.socials {
+  list-style: none;
+}

@@ -1,0 +1,8 @@
+.image {
+  max-width: 30px;
+  filter: grayscale(100%);
+  transition: 0.7s;
+  &:hover {
+    filter: none;
+  }
+}

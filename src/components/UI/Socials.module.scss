@@ -1,0 +1,14 @@
+.socials {
+  padding: 0;
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.socials__item {
+  margin-left: 15px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+}

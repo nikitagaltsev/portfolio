@@ -3,7 +3,8 @@
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
 }
 
 .header__author {
@@ -11,7 +12,8 @@
   text-decoration: none;
   align-self: center;
   font-style: normal;
-  color: #000;
+  color: inherit;
+  font-weight: 500;
 }
 
 .header__menu {
@@ -27,5 +29,6 @@
 
 .header__menuLink {
   text-decoration: none;
-  color: #000;
+  color: inherit;
+  font-weight: 500;
 }

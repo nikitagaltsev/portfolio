@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
-    "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -51,6 +50,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
+    "react-svg": "^11.0.41",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
@@ -136,5 +136,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^4.3.3"
   }
 }
