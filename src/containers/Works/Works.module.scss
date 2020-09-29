@@ -1,0 +1,123 @@
+$card-width: 370px;
+$card-height: 350px;
+
+.works {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.works__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 50px;
+  list-style: none;
+  padding: 0;
+  max-width: 1280px;
+}
+
+.works__item {
+  text-align: center;
+  max-height: 370px;
+  margin-left: 15px;
+  position: relative;
+  &:first-of-type {
+    margin-left: 0;
+  }
+}
+
+.works__link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+  &:hover {
+    & div {
+      opacity: 1;
+    }
+  }
+}
+
+.works__image {
+  max-width: $card-width;
+  height: $card-height;
+}
+
+
+
+// Styles for hover cards
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: $card-width;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0,0,0,0.85);
+  transition: 0.5s ease;
+}
+
+.description__list {
+  max-width: 90px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.description__title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.description__paragraph {
+  font-size: 15px;
+  max-width: 320px;
+}
+
+.description__image {
+  width: 40px;
+}
+
+.description__image.description__image_nuxt {
+  width: 70px;
+}
+
+
+@media (max-width: 1150px) {
+  .works__image {
+    max-width: 300px;
+    height: 280px;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .works__list {
+    flex-direction: column;
+  }
+
+  .works__item {
+    margin: 0 0 15px 0;
+  }
+
+  .works__image {
+    max-width: 370px;
+    height: 350px;
+  }
+}
+
+
+
+
+// font: 16px/2 Arial,sans-serif;
+// text-size-adjust: 100%;
+// white-space: nowrap;
+// fill: #fff;
+// transition: fill .3s;
