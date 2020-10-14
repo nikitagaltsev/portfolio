@@ -63,10 +63,7 @@ class Primary extends Component {
   render() {
     return (
       <section className={classes.primary}>
-        {/* <h1 className={classes.primary__title}>Nikita Galtsev x&nbsp;<span className="classes.primary__span" data-period="2000" data-type='["Frontend Developer", "Cinemaholic", "Marathon Runner"]'></span></h1> */}
-
-        <h1 className={classes.primary__title}>Вася Широков x&nbsp;<span className="classes.primary__span" data-period="2000" data-type='["Хуесос", "Заглот", "Выблядок"]'></span></h1>
-
+        <h1 className={classes.primary__title}>Nikita Galtsev x&nbsp;<span className="classes.primary__span" data-period="2000" data-type='["Frontend Developer", "Cinemaholic", "Marathon Runner", "Coffee lover ☕"]'></span></h1>
         <Socials/>
         <ArrowDown/>
         

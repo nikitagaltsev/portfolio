@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <g data-name="Layer 2">
+    <g data-name="Layer 1 copy">
+      <g data-name="figma round">
+        <circle cx="12.5" cy="12.5" r="7.85" fill="#525967"/>
+        <path d="M12.5 5.25a7.25 7.25 0 11-7.25 7.25 7.26 7.26 0 017.25-7.25m0-.6a7.85 7.85 0 107.85 7.85 7.85 7.85 0 00-7.85-7.85z" fill="#454b57"/>
+        <path fill="none" d="M0 0h25v25H0z"/>
+        <g data-name="ads manager">
+          <path data-name="path0 fill" d="M11 17.11a1.54 1.54 0 001.54-1.54V14H11a1.54 1.54 0 000 3.08z" fill="#0acf83"/>
+          <path data-name="path1 fill" d="M9.42 12.5A1.54 1.54 0 0111 11h1.5v3H11a1.54 1.54 0 01-1.58-1.5z" fill="#a259ff"/>
+          <path data-name="path1 fill" d="M9.42 9.42A1.54 1.54 0 0111 7.89h1.5V11H11a1.54 1.54 0 01-1.58-1.58z" fill="#f24e1e"/>
+          <path data-name="path2 fill" d="M12.5 7.89H14A1.54 1.54 0 0114 11h-1.5z" fill="#ff7262"/>
+          <path data-name="path3 fill" d="M15.58 12.5A1.54 1.54 0 1114 11a1.54 1.54 0 011.58 1.5z" fill="#1abcfe"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
