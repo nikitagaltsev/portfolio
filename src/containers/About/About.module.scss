@@ -1,0 +1,12 @@
+.about {
+  margin: 0 auto;
+  max-width: 1440px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__text {
+  max-width: 700px;
+}

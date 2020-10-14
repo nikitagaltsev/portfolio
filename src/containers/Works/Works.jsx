@@ -3,6 +3,9 @@ import classes from "./Works.module.scss";
 import russiaTrip from "../../assets/russia.jpg";
 import rakLechitsa from "../../assets/raklechitsa.jpg";
 import newsAnalyzer from "../../assets/newsanalyzer.jpg";
+import mesto from "../../assets/mesto.jpg";
+import learning from "../../assets/learning.jpg"
+import freelancer from "../../assets/freelancer.jpg"
 import vuexLogo from "../../assets/vuex.svg";
 import gitLogo from "../../assets/014-github.png";
 
@@ -216,7 +219,144 @@ class Works extends Component {
                 alt="Сайт о путешествиях по России"
               />
             </a>{" "}
-          </li>{" "}
+          </li>
+          
+
+          <li className={classes.works__item}>
+            <a
+              className={classes.works__link}
+              href="https://nikitagaltsev.github.io/mesto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={classes.description}>
+                <h3 className={classes.description__title}>Mesto</h3>{" "}
+                <p className={classes.description__paragraph}>
+                  Коллективный проект студентов Яндекс.Практикум. Создан для оттачивания навыков работы с сервером.
+                </p>{" "}
+                <p className={classes.description__stack}>Применяемый стек технологий</p>
+                <ul className={classes.description__list}>
+                  <li className={classes.description__item}>
+                    {this.state.html}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.css}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.javascript}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {" "}
+                    {this.state.bem}{" "}
+                  </li>
+                  <img
+                    className={classes.description__image}
+                    src={this.state.figma}
+                    alt="Figma"
+                    style={{
+                      height: '40px'
+                    }}
+                    />
+                </ul>{" "}
+              </div>{" "}
+              <img
+                className={classes.works__image}
+                src={mesto}
+                alt="Сайт о путешествиях по России"
+              />
+            </a>{" "}
+          </li>
+
+          <li className={classes.works__item}>
+            <a
+              className={classes.works__link}
+              href="https://nikitagaltsev.github.io/learning-techniques/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={classes.description}>
+                <h3 className={classes.description__title}>Научиться учиться</h3>{" "}
+                <p className={classes.description__paragraph}>
+                  Коллективный проект студентов Яндекс.Практикум. Создан для оттачивания навыков работы с сервером.
+                </p>{" "}
+                <p className={classes.description__stack}>Применяемый стек технологий</p>
+                <ul className={classes.description__list}>
+                  <li className={classes.description__item}>
+                    {this.state.html}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.css}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.javascript}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {" "}
+                    {this.state.bem}{" "}
+                  </li>
+                  <img
+                    className={classes.description__image}
+                    src={this.state.figma}
+                    alt="Figma"
+                    style={{
+                      height: '40px'
+                    }}
+                    />
+                </ul>{" "}
+              </div>{" "}
+              <img
+                className={classes.works__image}
+                src={learning}
+                alt="Сайт о техниках обучения"
+              />
+            </a>{" "}
+          </li>
+        
+          <li className={classes.works__item}>
+            <a
+              className={classes.works__link}
+              href="https://nikitagaltsev.github.io/freelance/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={classes.description}>
+                <h3 className={classes.description__title}>freelancer</h3>{" "}
+                <p className={classes.description__paragraph}>
+                  Тренировочный проект для оттачивания навыков вёрстки.
+                </p>{" "}
+                <p className={classes.description__stack}>Применяемый стек технологий</p>
+                <ul className={classes.description__list}>
+                  <li className={classes.description__item}>
+                    {this.state.html}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.css}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {this.state.javascript}
+                  </li>{" "}
+                  <li className={classes.description__item}>
+                    {" "}
+                    {this.state.bem}{" "}
+                  </li>
+                  <img
+                    className={classes.description__image}
+                    src={this.state.figma}
+                    alt="Figma"
+                    style={{
+                      height: '40px'
+                    }}
+                    />
+                </ul>{" "}
+              </div>{" "}
+              <img
+                className={classes.works__image}
+                src={freelancer}
+                alt="Сайт о техниках обучения"
+              />
+            </a>{" "}
+          </li>
+
         </ul>{" "}  
       </section>
     );
